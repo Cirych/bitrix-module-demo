@@ -1,0 +1,29 @@
+<?
+$MESS['MEDCARD_FORM_TITLE'] = "Карта № ";
+$MESS['MEDCARD_FORM_CLIENT'] = "Клиент: ";
+$MESS['MEDCARD_FORM_SPEC'] = "Специалист: ";
+$MESS['MEDCARD_FORM_WORK'] = "Услуга: ";
+$MESS['MEDCARD_FORM_STATUS'] = "Статус работы: ";
+$MESS['MEDCARD_FORM_WORK_START_DATE'] = "Дата начала работы: ";
+$MESS['MEDCARD_FORM_WORK_END_DATE'] = "Дата конца работы: ";
+$MESS['MEDCARD_FORM_WORK_TIME'] = "Срок работы: ";
+$MESS['MEDCARD_FORM_DAYS'] = "дней";
+$MESS['MEDCARD_FORM_TEST_START_DATE'] = "Дата начала теста: ";
+$MESS['MEDCARD_FORM_TEST_END_DATE'] = "Дата конца теста: ";
+$MESS['MEDCARD_FORM_TEST_TIME'] = "Срок теста: ";
+$MESS['MEDCARD_FORM_CARD_TYPE'] = "Тип карты: ";
+$MESS['MEDCARD_FORM_DATA'] = "Данные: ";
+$MESS['MEDCARD_SPEC_REPORT'] = "Отчет: ";
+$MESS['MEDCARD_FORM_APPLY'] = "Подтвердить";
+$MESS['MEDCARD_FORM_UPDATED'] = "Обновлена карта: ";
+$MESS['MEDCARD_WORKS_CONST_CARD_TYPE_MODEL'] = "Модель";
+$MESS['MEDCARD_WORKS_CONST_CARD_TYPE_CARDS'] = "Карты";
+$MESS['MEDCARD_WORKS_CONST_CARD_TYPE_SOME'] = "Нечто";
+$MESS['MEDCARD_WORKS_CONST_CARD_TYPE_HORO'] = "Гороскоп";
+$MESS['MEDCARD_WORKS_CONST_CARD_TYPE_NO'] = "Нет";
+$MESS['MEDCARD_WORKS_CONST_STATUS_ACCEPTED'] = "Принято";
+$MESS['MEDCARD_WORKS_CONST_STATUS_STARTED'] = "Начато";
+$MESS['MEDCARD_WORKS_CONST_STATUS_WORKING'] = "В работе";
+$MESS['MEDCARD_WORKS_CONST_STATUS_PROBLEM'] = "Проблема";
+$MESS['MEDCARD_WORKS_CONST_STATUS_CLOSED'] = "Закрыто";
+?>

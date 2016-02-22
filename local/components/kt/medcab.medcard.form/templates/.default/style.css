@@ -1,0 +1,19 @@
+.model
+{
+width:300px;
+height:500px;
+}
+#renderCanvas 
+{
+width: 80%;
+height: 100%;
+touch-action: none;
+}
+
+.horo
+{
+width:300px;
+height:500px;
+background-image: url(images/horo.png);
+background-size: 300px 500px;
+}

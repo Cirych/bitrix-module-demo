@@ -1,0 +1,5 @@
+<?
+$MESS["MCLIST_COMPONENT_FOR_PARAM"] = "Кому показывать";
+$MESS["MCLIST_COMPONENT_SPEC_PARAM"] = "Специалисту";
+$MESS["MCLIST_COMPONENT_CLIENT_PARAM"] = "Клиенту";
+?>

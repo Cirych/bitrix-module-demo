@@ -1,0 +1,37 @@
+updated
+inserted
+deleted
+invalid
+error
+
+\Bitrix\Main\Loader::includeModule('kt.medcab');
+KT\Medcab\WorksTable::getEntity()->getFields();
+
+
+MedcardTable::getEntity()->getFields();
+print_r(MedcardTable::getEntity()->compileDbTableStructureDump());
+print_r(KT\Medcab\WorksTable::getEntity()->compileDbTableStructureDump());
+
+
+CREATE TABLE `medcard` (`ID` int NOT NULL AUTO_INCREMENT, `CLIENT` int NOT NULL, `SPEC` int NOT NULL, `WORKS` int NOT NULL, `STATUS` varchar(8) NOT NULL, `START_DATE` datetime NOT NULL, `END_DATE` datetime NOT NULL, `TEST_START_DATE` datetime NOT NULL, `TEST_END_DATE` datetime NOT NULL, `WORKS_DATA` varchar(255) NOT NULL, `SPEC_REPORT` varchar(255) NOT NULL, PRIMARY KEY(`ID`))
+
+			new Entity\DatetimeField('START_DATE'),
+			new Entity\DatetimeField('END_DATE'),
+			new Entity\DatetimeField('TEST_START_DATE'),
+			new Entity\DatetimeField('TEST_END_DATE'),
+			
+			
+			
+dp.defineAction("error",function(){
+	//alert(response.firstChild.nodeValue);
+	//alert(response.getAttribute());
+	//return true;
+	alert('errrrror');
+});
+dp.defineAction("updated",function(tag){
+	//return true;
+	//alert("updated: ");
+});
+
+$tmp = KT\Medcab\WorksTable::getEntity()->getField("CARD_TYPE")->getName();
+$tmp = KT\Medcab\WorksTable::getEntity()->getField("CARD_TYPE")->getValues();
